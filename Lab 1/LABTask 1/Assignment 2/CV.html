@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shariar Hasan Sifat - CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 140px;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #000;
+            margin-right: 25px;
+        }
+
+        .header-info h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        .header-info p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .contact {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        /* Section */
+        .section {
+            margin-top: 25px;
+        }
+
+        .section h2 {
+            font-size: 18px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .section p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* Education */
+        .edu-item {
+            margin-bottom: 15px;
+        }
+
+        .edu-title {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .edu-meta {
+            font-size: 13px;
+            color: #555;
+        }
+
+        /* Lists */
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        /* Skills grid */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .skill {
+            font-size: 14px;
+        }
+
+        /* Footer note */
+        .note {
+            font-size: 14px;
+            color: #444;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+            .container {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <!-- Replace profile.jpg with your photo -->
+        <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+
+        <div class="header-info">
+            <h1>SHARIAR HASAN SIFAT</h1>
+            <p><strong>Computer Science & Engineering Student</strong></p>
+
+            <div class="contact">
+                📧 sifat.ffhfh321@gmail.com <br>
+                📞 01775164488 <br>
+                📍 Kuril, Dhaka <br>
+                🔗 linkedin/shariar-hasan-sifat <br>
+                🔬 researchgate/Shariar-Hasan-Sifat
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="section">
+        <h2>Profile</h2>
+        <p>
+            I am a Computer Science and Engineering student at the American International University–Bangladesh (AIUB),
+            recognized for my strong leadership qualities and analytical mindset. My research interests include
+            machine learning, Python, data science, and image processing, with a focus on contributing to
+            real-world applications. I am passionate about continuous learning and innovation and consistently
+            strive to solve challenges through practical and impactful solutions.
+        </p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <h2>Education</h2>
+
+        <div class="edu-item">
+            <div class="edu-title">B.Sc in Computer Science and Engineering</div>
+            <div class="edu-meta">
+                American International University–Bangladesh | 2023 – Present | Dhaka, Bangladesh <br>
+               
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-title">Higher Secondary Certificate (Science)</div>
+            <div class="edu-meta">
+                Sristy College of Tangail | 2019 – 2021 | Tangail, Bangladesh <br>
+               
+            </div>
+        </div>
+    </div>
+
+    <!-- RESEARCH INTERESTS -->
+    <div class="section">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Data Science</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Statistical Analysis</li>
+            <li>Image Processing</li>
+            <li>Natural Language Processing</li>
+        </ul>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <div class="skill">C++</div>
+            <div class="skill">C#</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python (Data Analysis)</div>
+            <div class="skill">R Programming</div>
+            <div class="skill">SPSS</div>
+            <div class="skill">MATLAB</div>
+            <div class="skill">AutoCAD</div>
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="section">
+        <h2>Projects</h2>
+
+        <p><strong>CSE Projects</strong></p>
+        <ul>
+            <li>AIUB Portal Replica System – Java-Based Academic Portal Simulation</li>
+            <li>E-Pharmacy Management System – Oracle-Based Pharmaceutical Service Platform</li>
+            <li>Blood Donation Management Platform – C# & .NET-Based System</li>
+        </ul>
+
+        <p><strong>EEE Projects</strong></p>
+        <ul>
+            <li>Voltage Doubler – Developed in the Introduction to Electrical Circuits course</li>
+            <li>Electronic Piano – Arduino Nano-Based Musical Note Generator</li>
+        </ul>
+    </div>
+
+    <!-- LANGUAGES & STRENGTHS -->
+    <div class="section">
+        <h2>Languages & Strengths</h2>
+        <ul>
+            <li>Bangla</li>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Strong Teamwork Skill</li>
+            <li>Presentation Skill</li>
+            <li>Leadership Skill</li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section">
+        <h2>Professional Experience</h2>
+        <p class="note">
+            No formal industry experience yet; actively seeking opportunities.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>

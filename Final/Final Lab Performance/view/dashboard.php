@@ -1,13 +1,10 @@
 <?php
 session_start();
-
 require_once('../model/jobModel.php');
-
 if(!isset($_COOKIE['status'])){
     header('location: login.php');
 }
 $employers = getAllEmployers();
-
 ?>
 
 
